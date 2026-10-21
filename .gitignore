@@ -1,0 +1,32 @@
+# Build output
+build/
+out/
+cmake-build-*/
+
+# Qt Creator / IDE
+*.user
+*.user.*
+CMakeLists.txt.user*
+.vs/
+.vscode/
+.idea/
+
+# Recorded frames: 500 frames x 512 KB = 250 MB. Never commit these.
+frames.dat
+*.dat
+
+# Binaries
+*.exe
+*.dll
+*.pdb
+
+# Archives and scratch folders: GitHub rejects anything over 100 MB per file.
+*.zip
+*.7z
+*.rar
+新建文件夹/
+scratch/
+
+# OS noise
+Thumbs.db
+.DS_Store
